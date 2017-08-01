@@ -27,5 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 
-    compile project(':jcenterTest')
+    //upload.gradle中的group:module名:version
+    compile 'com.lgx.jcenter:jcenterTest:1.0.0@aar'
 }
